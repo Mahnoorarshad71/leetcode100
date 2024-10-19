@@ -5,6 +5,7 @@ using namespace std;
 //we have low mid and high pointers. Acc to algo from 0 to l-1 zeros 
 //stored, l to m-1 ones stored, m to h unsorted ones an from h+1 to 
 //n-1 stored.
+//x+n-x O(n) that is single pass only one time loop traverse over array 
 void swap(int* m, int* n)
 {
     int temp=*m;
